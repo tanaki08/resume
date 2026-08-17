@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>職務経歴書 | 田中 広貴</title>
+<meta name="description" content="田中広貴（合同会社広 代表）の職務経歴書。Go / TypeScript / AWSサーバーレスを主軸としたフリーランスPM / Tech Lead。">
+<style>
+  :root {
+    --bg: #ffffff;
+    --bg-sub: #f6f8fa;
+    --text: #1f2328;
+    --text-sub: #59636e;
+    --accent: #0969da;
+    --border: #d1d9e0;
+    --tag-bg: #ddf4ff;
+    --tag-text: #0969da;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0d1117;
+      --bg-sub: #161b22;
+      --text: #e6edf3;
+      --text-sub: #9198a1;
+      --accent: #4493f8;
+      --border: #30363d;
+      --tag-bg: #121d2f;
+      --tag-text: #4493f8;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+    line-height: 1.8;
+    font-size: 16px;
+  }
+  .container { max-width: 800px; margin: 0 auto; padding: 0 24px 80px; }
+
+  header.hero { padding: 56px 0 32px; border-bottom: 1px solid var(--border); }
+  .hero h1 { margin: 0 0 4px; font-size: 1.9rem; letter-spacing: .02em; }
+  .hero .name { font-size: 1.15rem; color: var(--text-sub); margin: 0 0 16px; }
+  .hero .meta { color: var(--text-sub); font-size: .85rem; margin: 0; }
+  .pdf-btn {
+    display: inline-block; margin: 20px 0 0; padding: 9px 18px;
+    background: var(--accent); color: #fff; text-decoration: none;
+    border-radius: 6px; font-size: .9rem; font-weight: 600;
+  }
+  .pdf-btn:hover { opacity: .88; }
+
+  h2 {
+    font-size: 1.3rem; margin: 56px 0 16px; padding-bottom: 8px;
+    border-bottom: 2px solid var(--accent);
+  }
+  h3 { font-size: 1.1rem; margin: 40px 0 8px; }
+  h4 { font-size: .95rem; margin: 24px 0 8px; color: var(--text-sub); }
+  p { margin: 0 0 16px; }
+  a { color: var(--accent); }
+  ul { margin: 0 0 16px; padding-left: 1.4em; }
+  li { margin-bottom: 6px; }
+  li > strong { color: var(--text); }
+  hr { border: none; border-top: 1px solid var(--border); margin: 48px 0; }
+
+  .period { color: var(--text-sub); font-size: .85rem; font-weight: normal; }
+
+  table { width: 100%; border-collapse: collapse; margin: 0 0 20px; font-size: .9rem; }
+  th, td { border: 1px solid var(--border); padding: 8px 12px; text-align: left; vertical-align: top; }
+  th { background: var(--bg-sub); white-space: nowrap; }
+  .table-scroll { overflow-x: auto; margin: 0 0 20px; }
+  .table-scroll table { margin: 0; min-width: 640px; }
+
+  dl.facts {
+    display: grid; grid-template-columns: 5.5em 1fr; gap: 4px 16px;
+    margin: 0 0 20px; padding: 16px 20px;
+    background: var(--bg-sub); border: 1px solid var(--border); border-radius: 8px;
+    font-size: .9rem;
+  }
+  dl.facts dt { color: var(--text-sub); font-weight: 600; }
+  dl.facts dd { margin: 0; }
+
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 16px; }
+  .tag {
+    background: var(--tag-bg); color: var(--tag-text);
+    border-radius: 999px; padding: 2px 12px; font-size: .8rem; font-weight: 500;
+  }
+
+  footer {
+    margin-top: 64px; padding-top: 24px; border-top: 1px solid var(--border);
+    color: var(--text-sub); font-size: .8rem;
+  }
+
+  @media print {
+    body { font-size: 12px; }
+    .pdf-btn { display: none; }
+    h2 { margin-top: 24px; }
+    h3 { margin-top: 16px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <header class="hero">
+    <h1>職務経歴書</h1>
+    <p class="name">田中 広貴（たなか ひろき） / 合同会社広 代表</p>
+    <p class="meta">最終更新：2026年8月</p>
+    <a class="pdf-btn" href="./resume.pdf">職務経歴書（PDF）をダウンロード</a>
+  </header>
+
+  <section>
+    <h2>職務要約</h2>
+    <p>2014年に生命保険の基幹システム開発（COBOL / Java）でキャリアを開始し、要件定義から設計・実装・保守までウォーターフォールの全工程を経験しました。2018年にWeb系へ転向し、2019年9月に独立。2022年2月に合同会社広を設立し、現在は代表として複数のクライアントに参画しています。</p>
+    <p>Go / TypeScript（Next.js）/ AWSサーバーレスを主軸に、保険・予約・マーケットプレイス領域の業務システム開発に従事。現在は2案件でPMを務めています。いずれも実装メンバーとして参画した後、担当範囲が広がった結果としてPMを任されたもので、自分が設計・実装した領域をそのままマネジメント側で見ています。仕様が固まりきらないまま動き出した機能を引き取って要件から確定させる、遅延しているタスクのスケジュールを組み直す、といった役回りを担うことが多いです。</p>
+    <p>エンジニア歴12年4ヶ月（うちWeb系8年）、保険ドメインは通算8年以上です。</p>
+  </section>
+
+  <section>
+    <h2>活かせる経験・スキル</h2>
+    <ul>
+      <li><strong>実装とマネジメントの兼務</strong> — 設計・実装をしながら、進捗管理・アサイン調整・他チーム折衝まで担当</li>
+      <li><strong>一貫した開発推進</strong> — 要件定義・仕様策定からアーキテクチャ設計、実装、リリース、運用まで</li>
+      <li><strong>サーバーレスアーキテクチャ設計</strong> — AWS CDK によるIaC、Lambda / API Gateway / SQS 構成の設計と運用</li>
+      <li><strong>認証・決済の方式設計</strong> — パスキーを主軸としたMFA、信頼済みデバイス管理、決済ゲートウェイ連携、監査ログ設計</li>
+      <li><strong>外部システム連携</strong> — 複数の外部予約経路と自社システム間のデータ同期設計</li>
+      <li><strong>レガシー刷新</strong> — PHP/CakePHP → Go/React、Vue/Nuxt → React/Next、Node(JS) → Node(TypeScript)</li>
+      <li><strong>保険ドメインの業務知識</strong> — 生命保険基幹（手数料・企業会計）、ペット保険、保険金請求・査定</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>技術スキル</h2>
+    <table>
+      <tr><th>言語</th><td>Go、TypeScript / JavaScript、Java、Ruby、Kotlin、Scala、C#、COBOL</td></tr>
+      <tr><th>フレームワーク</th><td>Next.js / React、Nuxt.js / Vue.js、Gin、GoKit、ent、Ruby on Rails、Spring Boot、Express</td></tr>
+      <tr><th>クラウド</th><td>AWS（CDK、Lambda、API Gateway、S3、SQS、Athena、CloudFront、Cognito、CloudFormation）</td></tr>
+      <tr><th>DB</th><td>MySQL、PostgreSQL（Aurora含む）、MongoDB、Oracle、DB2</td></tr>
+      <tr><th>その他</th><td>gRPC、Docker、GitHub Actions、SendGrid、Figma、Notion</td></tr>
+      <tr><th>マネジメント</th><td>PMとしての進捗・タスク管理、協力会社折衝、見積・スケジュール策定、OJTによる後進育成（3年）</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>職務経歴</h2>
+
+    <h3>合同会社広 ／ フリーランス <span class="period">（2019年9月〜現在）</span></h3>
+    <p>2019年9月に個人事業主として独立し、2022年2月に合同会社広を設立。以降は法人として受託しています。複数案件を並行して受注し、実装からPMまでを担当。</p>
+
+    <h3>① 保険金請求・査定システムの開発／PM <span class="period">（2025年8月〜現在）</span></h3>
+    <dl class="facts">
+      <dt>業種</dt><dd>保険</dd>
+      <dt>役割</dt><dd>実装メンバーとして参画、2026年5月よりPMを兼務</dd>
+      <dt>稼働</dt><dd>週2（2026年7月より週3〜3.5）</dd>
+      <dt>規模</dt><dd>10名（社内）</dd>
+    </dl>
+    <div class="tags">
+      <span class="tag">Go</span><span class="tag">TypeScript</span><span class="tag">Next.js</span><span class="tag">React</span><span class="tag">AWS CDK</span><span class="tag">Lambda</span><span class="tag">S3</span><span class="tag">CloudFront</span><span class="tag">SendGrid</span>
+    </div>
+    <h4>背景</h4>
+    <p>保険金請求から査定・支払までを扱う業務システムの新規開発および機能拡張。複数チームが並行して機能を開発する体制で、仕様が固まりきらないまま実装フェーズに入る場面が多く発生していました。</p>
+    <h4>実装フェーズ（2025年8月〜2026年4月）</h4>
+    <ul>
+      <li>窓口精算システムの開発をフロントエンド・バックエンドの双方で担当</li>
+      <li>査定システムの開発をフロントエンド・バックエンドの双方で担当</li>
+    </ul>
+    <h4>PM兼務後（2026年5月〜）</h4>
+    <p>自身が実装した2領域をそのまま引き継ぐ形でPMに着任しました。</p>
+    <ul>
+      <li><strong>査定システムのエンハンス対応</strong> — 遅延していたスケジュールを引き取り、残タスクの洗い出しと優先度の再設定を行ってリリースまで到達させた</li>
+      <li><strong>窓口精算機能</strong> — 曖昧なまま進行していた要件をヒアリングで確定させ、設計・実装まで一貫して担当</li>
+      <li><strong>決済ゲートウェイ連携</strong> — 外部決済サービスとの連携方式を設計</li>
+      <li><strong>担当外領域の巻き取り</strong> — QAからの不具合報告が滞留していた状況を検知し、アサイン整理と体制変更を提案して解消。自身の担当範囲外だったが、リリース遅延の主因になり得ると判断して着手した</li>
+    </ul>
+
+    <h3>② ペット保険業務システムの開発／PM <span class="period">（2023年2月〜現在）</span></h3>
+    <dl class="facts">
+      <dt>業種</dt><dd>保険</dd>
+      <dt>役割</dt><dd>バックエンド → フロントエンド → PM兼フロントエンド</dd>
+      <dt>稼働</dt><dd>週2〜3</dd>
+      <dt>規模</dt><dd>8名</dd>
+    </dl>
+    <div class="tags">
+      <span class="tag">Vue.js</span><span class="tag">Nuxt.js</span><span class="tag">React</span><span class="tag">Next.js</span><span class="tag">TypeScript</span><span class="tag">Node.js</span><span class="tag">MySQL</span><span class="tag">Cognito</span><span class="tag">CloudFront</span><span class="tag">S3</span>
+    </div>
+    <h4>背景</h4>
+    <p>既存プロダクトの保守と新規プロダクト開発を並行して進める体制。フロントエンドは Vue / Nuxt から React / Next への移行途上にありました。</p>
+    <h4>担当と成果</h4>
+    <p>3年半の参画期間で、バックエンド実装 → フロントエンド実装 → PM兼務と段階的に担当範囲が広がりました。</p>
+    <ul>
+      <li><strong>PMとして</strong> — メンバーのタスク・進捗管理、協力会社との打ち合わせと作業依頼、他チームとの仕様・スケジュール調整</li>
+      <li><strong>認証方式の設計</strong> — パスキーを主軸とし、TOTPをフォールバックとするMFA方式を選定・設計</li>
+      <li><strong>社内ドキュメント基盤の設計</strong> — 仕様書を集約する社内向けドキュメントサイトについて、静的出力を非公開ストレージに配置し、認証済みプロキシ経由で配信する方式を設計。アクセス主体・パス・時刻を記録する監査ログの要件も含めて設計</li>
+      <li><strong>フロントエンド刷新</strong> — Vue / Nuxt から React / Next への移行を推進</li>
+    </ul>
+
+    <h3>③ 遊びのマーケットプレイスサービスの開発（2025年5月〜現在）／ネイルサロン予約システムのリプレイス <span class="period">（2023年7月〜2025年4月）</span></h3>
+    <dl class="facts">
+      <dt>業種</dt><dd>レジャー / 美容</dd>
+      <dt>役割</dt><dd>フルスタックエンジニア</dd>
+      <dt>稼働</dt><dd>週2〜3</dd>
+      <dt>規模</dt><dd>9名</dd>
+    </dl>
+    <div class="tags">
+      <span class="tag">Node.js</span><span class="tag">TypeScript</span><span class="tag">Ruby</span><span class="tag">Ruby on Rails</span><span class="tag">React</span><span class="tag">Next.js</span><span class="tag">MongoDB</span><span class="tag">PostgreSQL</span>
+    </div>
+    <h4>担当と成果</h4>
+    <ul>
+      <li><strong>〜2025年4月</strong> — ネイルサロン予約システムについて、Node(JavaScript) から Node(TypeScript) への刷新を担当</li>
+      <li><strong>2025年5月〜</strong> — 遊びのマーケットプレイスサービスの開発に従事。多要素認証および信頼済みデバイス管理の実装を含む、認証まわりのセキュリティ強化を担当</li>
+      <li>同サービスには2021年にも別チームで参画しており、既存のドメイン知識を活かして短期間で立ち上がることができた</li>
+    </ul>
+
+    <h3>④ 美容系予約管理システムのリプレイス <span class="period">（2022年10月〜2026年6月／45ヶ月）</span></h3>
+    <dl class="facts">
+      <dt>業種</dt><dd>美容</dd>
+      <dt>役割</dt><dd>バックエンド / フロントエンド、AWS基盤構築</dd>
+      <dt>稼働</dt><dd>週5（2026年4月より週3）</dd>
+      <dt>規模</dt><dd>9名</dd>
+    </dl>
+    <div class="tags">
+      <span class="tag">Go</span><span class="tag">GoKit</span><span class="tag">ent</span><span class="tag">React</span><span class="tag">Next.js</span><span class="tag">TypeScript</span><span class="tag">MySQL</span><span class="tag">AWS CDK</span><span class="tag">Lambda</span><span class="tag">API Gateway</span><span class="tag">SQS</span><span class="tag">Athena</span><span class="tag">S3</span>
+    </div>
+    <h4>背景</h4>
+    <p>PHP / CakePHP で構築された既存の予約管理システムを、Go / React へ全面刷新するプロジェクト。稼働中のサービスを止められないため、移行と新機能開発を並行して進める必要がありました。</p>
+    <h4>担当と成果</h4>
+    <ul>
+      <li>バックエンド・フロントエンド双方の実装を担当</li>
+      <li>AWS CDK によるインフラ構成の設計・構築を担当し、サーバーレス構成へ移行</li>
+      <li>移行と並行して新機能の開発も担当。離任時点で刷新は大部分が完了し、一部機能のみ旧システムに残る状態まで到達</li>
+      <li><strong>外部システム連携</strong> — 離任前は、複数の集客ポータルサイトからの予約を一元管理する外部システム（BMS）との連携部分を担当。外部経路と自社システム間で予約枠・シフト情報を同期させる処理を実装</li>
+    </ul>
+
+    <h3>その他の案件 <span class="period">（2019年9月〜2023年9月）</span></h3>
+    <div class="table-scroll">
+      <table>
+        <tr><th>期間</th><th>案件</th><th>役割・内容</th><th>技術</th></tr>
+        <tr><td>2023.05–2023.09</td><td>RPA製品の「ライブラリ」機能開発</td><td>外部サービスAPI連携をユーザーがアドオンできる機能の開発、GitHub Actionsの構築</td><td>TypeScript、Node.js、GitHub Actions</td></tr>
+        <tr><td>2022.10–2023.01</td><td>マッチングサービス</td><td>Rails APIの機能追加とフロント改修、RSpecでのテスト追加、Active Admin管理画面の拡張</td><td>Ruby on Rails、React、TypeScript</td></tr>
+        <tr><td>2022.02–2023.09</td><td>チケット管理システム（エンタメ）</td><td>バックエンドのメイン担当。0→1でのAPI開発とサービス立ち上げを担当し、拡大に伴いgRPCベースへ刷新</td><td>Go、Gin、Gorm、gRPC、MySQL</td></tr>
+        <tr><td>2021.12–2022.04</td><td>クラウド型顧客ポータルサービス（8名）</td><td>機能改善・追加開発をフロント／バック横断で担当</td><td>Node.js、Express、Next.js、TypeScript</td></tr>
+        <tr><td>2021.11–2022.12</td><td>治験情報公開・管理サービス（医療）</td><td>ユーザー管理・ログイン基盤のAPI開発をメインで担当。Docker等の環境構築も担当</td><td>Ruby on Rails、Java、PostgreSQL</td></tr>
+        <tr><td>2021.10–2022.09</td><td>医師向けポータルサイト（医療、34名）</td><td>複数サービスを横断し、PdMとの仕様調整から設計・実装・テストまで担当</td><td>Java、Scala、Go/echo、Play Framework、PostgreSQL、Oracle</td></tr>
+        <tr><td>2021.07–2021.11</td><td>自社HRTechプロダクト（15名）</td><td>新UIへのリプレイスに伴う画面開発とAPI設計・開発</td><td>Java、Spring Boot、React、TypeScript</td></tr>
+        <tr><td>2021.07–</td><td>スポーツ・エンタメ向けサービス（スポット）</td><td>スクレイピングのロジック修正、Shopifyストアのブログ閲覧制限機能の開発</td><td>Ruby on Rails、Liquid</td></tr>
+        <tr><td>2021.05–2022.04</td><td>経営管理クラウドサービス（6名）</td><td>機能改善・追加開発。テストコードとリファクタリングを主に担当</td><td>Kotlin、Spring Boot、React、Next.js、Aurora PostgreSQL</td></tr>
+        <tr><td>2021.04–2021.09</td><td>遊びのマーケットプレイスサービス（レジャー、120名）</td><td>社内システム・外部連携モジュールの開発。gRPCによるAPI開発、アジャイル開発とDDDを経験</td><td>Java、Spring Boot、React、TypeScript</td></tr>
+        <tr><td>2020.04–2021.03</td><td>決済代行システム（30名）</td><td>追加機能開発の要件定義、基本設計、仕様調査。顧客からの問合せ対応（データ取得・テスト実施）も担当</td><td>Java、Spring Boot、Oracle</td></tr>
+        <tr><td>2019.09–2020.03</td><td>住宅販売業務システム（17名）</td><td>会計・仕訳機能の詳細設計、製造、単体〜システムテスト</td><td>Java、Spring Boot、jQuery、PostgreSQL</td></tr>
+      </table>
+    </div>
+
+    <h3>SES企業 <span class="period">（2018年4月〜2019年8月）</span></h3>
+    <p>Web系へ転向するため、生命保険基幹システムのSIerからSES企業へ転職。SES案件と並行して複業に取り組み、独立の準備期間としました。</p>
+    <div class="table-scroll">
+      <table>
+        <tr><th>期間</th><th>案件</th><th>役割・内容</th><th>技術</th></tr>
+        <tr><td>2019.04–2019.08</td><td>通信建設業務システム（15名）</td><td>社会保険加入状況・スキル管理機能の開発。サブチームリーダーとして進捗管理、リーダーへの報告、プロパーとの仕様調整</td><td>Java、Spring Boot、C#/.NET、PostgreSQL</td></tr>
+        <tr><td>2018.10–2019.09</td><td>プログラミングスクール IT講師（複業）</td><td>未経験者の学習補助、質疑応答、実務知見の共有、就職支援</td><td>Ruby on Rails、HTML/CSS、JavaScript</td></tr>
+        <tr><td>2018.08–2019.03</td><td>通信建設業務システム（15名）</td><td>資材・工程管理システムの設計・開発。各担当の作業状況を把握し、遅延・懸念をリーダーへ連携</td><td>C#、C#/.NET、Oracle</td></tr>
+        <tr><td>2018.04–2018.07</td><td>SES契約管理システム（8名）</td><td>管理画面の機能開発、RSpecでのテスト、テストデータ拡充</td><td>Ruby on Rails、MySQL</td></tr>
+      </table>
+    </div>
+
+    <h3>SIer <span class="period">（2014年4月〜2018年3月）</span></h3>
+    <h4>生命保険業務システムの設計・開発・保守（48ヶ月）</h4>
+    <dl class="facts">
+      <dt>業種</dt><dd>保険</dd>
+      <dt>役割</dt><dd>SE / PG、OJT担当</dd>
+      <dt>規模</dt><dd>450名</dd>
+    </dl>
+    <div class="tags">
+      <span class="tag">COBOL</span><span class="tag">Java</span><span class="tag">DB2</span>
+    </div>
+    <p>新卒で入社し、保険募集人への営業手当、代理店に支払う委託手数料、企業会計に関するシステムの設計・開発・保守を担当。要件定義から保守までウォーターフォールの全工程を経験しました。顧客との打ち合わせや問合せ対応も担当。OJT担当を3年務め、後進育成にも従事しました。</p>
+  </section>
+
+  <section>
+    <h2>自己PR</h2>
+    <h4>実装から入って、任される範囲が広がってきたこと</h4>
+    <p>現在PMを務めている2案件は、いずれも実装メンバーとして参画したものです。保険金請求・査定システムでは窓口精算と査定の両システムを自分で作り、その9ヶ月後にPMを兼務することになりました。ペット保険案件では、バックエンド、フロントエンド、PMと3年半かけて段階的に範囲が広がっています。仕様を理解した状態でマネジメントに回っているため、見積もりの妥当性や技術的な詰まりの判断が現場感を持ってできる点が強みです。</p>
+    <h4>要件が固まっていない状態から動けること</h4>
+    <p>仕様が曖昧なまま実装フェーズに入った機能を引き取り、関係者へのヒアリングで要件を確定させたうえで設計・実装まで通す、という進め方を繰り返してきました。法学部出身で非エンジニアとの対話に抵抗がないこと、生命保険基幹システム時代に顧客折衝と問合せ対応を担当していたことが土台になっています。</p>
+    <h4>担当範囲を線引きせずに、遅延の原因に手を入れること</h4>
+    <p>QAからの不具合報告が滞留していた際、自身の担当外でしたが放置すればリリース遅延に直結すると判断し、状況整理とアサイン変更を提案して解消に至りました。PMとして全体の納期を見る立場では、こうした「誰の担当でもない詰まり」を見つけて動かすことが最も効くと考えています。</p>
+    <h4>レガシー刷新の経験を複数積んでいること</h4>
+    <p>PHP/CakePHP → Go/React、Vue/Nuxt → React/Next、Node(JS) → Node(TS) と、稼働中サービスの技術刷新を複数の現場で経験しました。特に美容系予約システムでは、3年8ヶ月かけて大部分の移行を完了させています。動いているものを止めずに置き換える際の段階的な移行設計と、移行期間中の二重メンテナンスをどう畳むかについて、実践的な判断ができます。</p>
+  </section>
+
+  <section>
+    <h2>保有資格・学歴</h2>
+    <ul>
+      <li>基本情報技術者</li>
+      <li>成蹊大学 法学部政治学科 卒業</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>稼働条件</h2>
+    <ul>
+      <li>稼働形態：リモートのみ</li>
+      <li>稼働可能日：要相談</li>
+    </ul>
+  </section>
+
+  <footer>
+    © 田中 広貴（合同会社広） — <a href="https://github.com/tanaki08/resume">GitHub リポジトリ</a>
+  </footer>
+
+</div>
+</body>
+</html>
